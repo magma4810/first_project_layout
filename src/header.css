@@ -1,0 +1,21 @@
+.center {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: 30px;
+  padding: 10px;
+}
+header {
+  font-size: small;
+  display: flex;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.send {
+  border: 1px solid rgb(135, 227, 250);
+  padding: 10px;
+}
+.architect {
+  margin-left: 10px;
+}
