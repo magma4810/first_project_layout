@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 3fr 5fr 5fr 5fr 5fr 8fr 3fr 3fr;
+  background-color: rgb(228, 244, 248);
+  background-image: url(./img/full_WMwjiJR6.png);
+}
+.center {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: 30px;
+  padding: 10px;
+}
+header {
+  padding: 10px;
+  font-size: small;
+  display: flex;
+  height: 59px;
+  background: rgb(255, 255, 255);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.send {
+  border: 1px solid rgb(135, 227, 250);
+  padding: 10px;
+}
+.architect {
+  margin-left: 10px;
+}
